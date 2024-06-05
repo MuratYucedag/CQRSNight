@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CQRSDesignPattern\Queries\" />
+    <Folder Include="CQRSDesignPattern\Queries\CategoryQueries\" />
   </ItemGroup>
 
   <ItemGroup>
