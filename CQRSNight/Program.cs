@@ -11,6 +11,7 @@ builder.Services.AddScoped<GetCategoryQueryHandler>();
 builder.Services.AddScoped<CreateCategoryCommandHandler>();
 builder.Services.AddScoped<RemoveCategoryCommandHandler>();
 builder.Services.AddScoped<UpdateCategoryCommandHandler>();
+builder.Services.AddScoped<GetCategoryByIdQueryHandler>();
 
 builder.Services.AddControllersWithViews();
 
