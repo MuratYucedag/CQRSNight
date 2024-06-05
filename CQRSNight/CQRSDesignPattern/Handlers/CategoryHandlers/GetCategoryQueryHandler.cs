@@ -14,6 +14,7 @@ namespace CQRSNight.CQRSDesignPattern.Handlers.CategoryHandlers
         {
             var values = _context.Categories.Select(x => new GetCategoryQueryResult
             {
+                CategoryName = x.CategoryName,
                 CategoryId = x.CategoryId
             });
             return values.ToList();

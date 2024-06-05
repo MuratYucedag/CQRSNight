@@ -4,6 +4,9 @@
     Layout = null;
 }
 
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
 <div class="container">
     <br /><br />
     <div class="alert alert-primary">Kategori Listesi</div>
@@ -20,7 +23,7 @@
                 <td>@item.CategoryId</td>
                 <td>@item.CategoryName</td>
                 <td><a href="/Category/RemoveCategory/@item.CategoryId" class="btn btn-danger">Sil</a></td>
-                <td><a href="/Category/UpdateCategory/@item.CategoryId" class="btn btn-danger">Güncelle</a></td>
+                <td><a href="/Category/UpdateCategory/@item.CategoryId" class="btn btn-success">Güncelle</a></td>
             </tr>
         }
     </table>
