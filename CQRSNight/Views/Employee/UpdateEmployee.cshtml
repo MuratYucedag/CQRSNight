@@ -1,0 +1,27 @@
+﻿@model CQRSNight.MediatorDesignPattern.Results.GetEmployeeByIdQueryResult
+
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<form method="post">
+    <div class="container">
+        <br /><br />
+        <div class="alert alert-primary">Personel Güncelleme</div>
+        <label>Personel Id</label>
+        <input type="text" asp-for="EmployeeId" readonly class="form-control" />
+        <br />
+        <label>Personel Adı</label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <br />
+        <label>Personel Soyadı</label>
+        <input type="text" asp-for="Surname" class="form-control" />
+        <br />
+        <label>Personel Maaşı</label>
+        <input type="text" asp-for="Salary" class="form-control" />
+        <br />
+        <button class="btn btn-success">Personeli Güncelle</button>
+    </div>
+</form>
